@@ -1,0 +1,13 @@
+<script>
+	var formularioCorrecto= false;
+
+	while(formularioCorrecto == false){
+		var nombre = prompt("Introduce tu nombre");
+		if(nombre==""){
+			alert("Error")
+		}else{
+			formularioCorrecto = confirm("Los datos son correctos?");
+		}
+	}
+	alert("fin")
+</script>
